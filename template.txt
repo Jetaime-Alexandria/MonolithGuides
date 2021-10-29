@@ -1,15 +1,16 @@
-Vehicles... 
-------------
- {
+{
+        id: 0,
         name: "",
         type: "",
         price: 0,
         data: [
             {
+                onclick: null,
                 top_speed: 0,
                 zero_plus: 0,
                 upgrades: ["unknown"],
                 skins: 0,
+                fuel_type: "",
                 exclusive: [
                     {
                         exclusive_vehicle: false,
@@ -19,4 +20,3 @@ Vehicles...
             }
         ]
     },
--------------
