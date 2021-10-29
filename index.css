@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.container .container-child { 
+    flex: 6;
+    text-align: center;
+}
+
+.container .container-child:first-child {
+    margin-right: 25px;
+}
+
+
+#list {
+    overflow: auto;
+    padding: 10px;
+    height: 890px;
+}
+
+.categories {
+    color: rgb(146, 146, 146);
+    font-weight: bold;
+}
+
+.vehicle {
+    color: white;
+    font-weight: normal;
+}
+
+.exclusive {
+    color: goldenrod;
+}
+
+.tag-exclusive {
+    font-size: small;
+    background-color: goldenrod;
+    color: black;
+    padding: 3px;
+    border-radius: 25px;
+}
+
+.tag-wip {
+    font-size: small;
+    background-color: lightcoral;
+    color: black;
+    padding: 3px;
+    border-radius: 25px;
+}
+
+.tag {
+    font-size: small;
+    background-color: #81a976;
+    color: black;
+    padding: 3px;
+    border-radius: 25px;
+}
+
+.note {
+    font-size: small;
+    color: gray;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 15px;
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li:hover {
+    background-color: rgb(36, 35, 35);
+}
+
+#search {
+    padding: 10px;
+    width: 470px;
+    border: none;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(7, 7, 7);
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-button {
+    background-color: transparent;
+}

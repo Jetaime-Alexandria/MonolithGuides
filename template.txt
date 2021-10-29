@@ -1,0 +1,22 @@
+Vehicles... 
+------------
+ {
+        name: "",
+        type: "",
+        price: 0,
+        data: [
+            {
+                top_speed: 0,
+                zero_plus: 0,
+                upgrades: ["unknown"],
+                skins: 0,
+                exclusive: [
+                    {
+                        exclusive_vehicle: false,
+                        exclusive_vehicle_price: 0
+                    }
+                ]
+            }
+        ]
+    },
+-------------
